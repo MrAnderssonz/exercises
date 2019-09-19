@@ -6,7 +6,7 @@ namespace exercise2
     {
         static void Main(string[] args)
         {
-            Console.Write("skriv in ett decimaltal: ");
+            Console.Write("Skriv in ett decimaltal: ");
             string input = Console.ReadLine();
             double userInput = Convert.ToDouble(input);
             int noDecimals = (int)userInput;
